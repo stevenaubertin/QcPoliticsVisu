@@ -93,6 +93,7 @@ def main(argv):
 
         dataTable[caption] = [winner, part_years, dataRow]
 
+    #Here there is some work to clean it up
     print
     for i in dataTable:
         print
