@@ -1,7 +1,7 @@
 QcPoliticsVisu
 ==============
 
-Timeline visualisation of Quebec Plotics Colors 
+Timeline visualisation of Quebec Politics Colors 
 
 
 This is a quick python program to display a timeline using PIL and BeautifullSoup.
