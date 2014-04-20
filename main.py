@@ -89,6 +89,7 @@ def main(argv):
                             #color that represent the party
                             colors[td.text] = td.get('bgcolor')
                         elif lastEntry:
+                            #add seats value
                             dataRow[lastEntry].append(td.text if td.text else '0')
 
         dataTable[caption] = [winner, part_years, dataRow]
@@ -134,14 +135,7 @@ def main(argv):
         im.save(caption + ".ppm")
         print
 
-
     return 0
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
-
-
-
-
-
-
